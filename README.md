@@ -30,14 +30,3 @@ Briefly, these files contain the following:
 *scripts.py: This contains the subroutines that contain the necessary commands to build the models in Abaqus.
 
 *ShapesDatabase.csv: This database contains information about the steel shapes' cross sections that is needed for the automated lookups. It is based on the spreadsheet at structuresworkshop.com/files/AISC_Shapes_Database_v13.2.xls, but is formatted to run with these scripts.
-
-
-To-Dos in this README:
-
-* Explain the subroutines in scripts.py
-* Explain that I need to use "abaqus-old" to access 6.14, and why (better results).
-* Explain the bug when run on Windows machine
-* Post older code that will run on Windows machine (though not as efficient)
-* Explain the supercomputer usage
-* Explain the unpublished information about the preliminary results that justified some of my assumptions/simplifications.
-* Explain future research directions / roads not travelled: weak-axis bending; using concrete-specific material properties instead of cohesive zone models; working more closely w/ Dr. Scott.
